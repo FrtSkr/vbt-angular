@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 
+//base url den sonra girilecek her sayfa için kullanılan durumdur.
 const routes: Routes = [
   //url'den app-page çağrıldıında AppComponent classını çalıştıracaktır.
   /*
